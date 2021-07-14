@@ -185,6 +185,11 @@ nav{
      color: white;
      font-size: 16px;
      font-weight: 500px;
+     transition: background-color 1s;
+ }
+ .watch-now-button:hover{
+     background-color: white;
+     color: #E02C6D;
  }
  /* ----group-detail---- */
  #group-detail{
