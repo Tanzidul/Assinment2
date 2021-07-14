@@ -1,0 +1,375 @@
+/* ---google fonts--- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* strat style */
+/* -------------
+    common style
+--------------- */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* ----Header Style---- */
+nav{
+    background-color: #2D25A0;
+    padding-bottom: 67px;
+}
+.nav-contant{
+    width: 1222px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+.manu-item{
+    width: 1036px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    
+
+}
+.manu-item ul li{
+    list-style: none;
+    display: inline;
+}
+.item{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    margin-right: 36px;
+}
+.item:hover{
+    text-decoration: underline;
+}
+.login-button{
+    color: white; 
+    background-color: #E02C6D;
+    border: none;
+    width: 123px;
+    height: 44px;
+    font-size: 16px;
+    
+}
+.login-button:hover{
+    background-color: white;
+    color: #E02C6D;
+}
+.login{
+    width: 30px;
+}
+/* ------ start secion1 style  ------*/
+.Copa-America{
+    background-color: #2D25A0;
+    
+} 
+.contant{
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+}
+.footballer img{
+    width: 556.01px;
+    margin-left: 91px;
+    transition: margin-left 3s; 
+}
+.footballer img:hover{
+    margin-left: -30px;
+    
+}
+ 
+    
+.head-line{
+    width: 513px;
+    margin-left: 36px;
+}
+.head-line h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: white; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: transform 3s;
+}
+.head-line h2:hover{
+    transform: scale(0.5) translate(50%, -100%);
+}
+ .watching-button{
+  width: 168px;
+  height: 44px;
+  background-color: #E02C6D;
+  color: white;
+  font-size: 16px;
+  font-weight: 500px;
+  margin-bottom: 36px; 
+  
+} 
+.watching{
+    width: 20px;
+}
+.watching-button:hover{
+    transform: rotate(360deg);
+    background-color: white;
+    color: #E02C6D;
+    transition: transform 3s;
+}
+/*---- players detail ----*/
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    width: 1160px;
+    margin: 0 auto;
+}
+#contant{
+    margin-top: 70px;
+    margin-bottom: 100px;
+   
+}
+.player{
+    width: 310px;
+    height: 454px;
+    position: relative;
+    box-shadow: 5px 5px  40px rgb(182, 182, 182);
+    padding: 16px;
+    padding-right: 10px;
+
+    
+}
+.player-image img{
+    width: 300px;
+    
+    
+}
+.detail h3{
+    font-size: 28px;
+    width: 700;
+    position: absolute;
+    top: 260px;    
+}
+.detail p{
+    color: #6C6C6C;
+    font-size: 16px;
+    position: absolute;
+    top: 320px
+}
+    
+ /*--- Highlights Section style */
+
+.highlights-contant{
+    width: 1150px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 50px;
+   
+}
+ .messi img{
+     width: 567px;
+ }
+ .highlights-detail{
+     width: 555px;
+     margin-right: 114px;
+ }
+ .highlights-detail h2{
+     font-size: 48px;
+     font-weight: 700;
+ }
+ .highlights-detail p{
+     font-size: 16px;
+     font-weight: 400;
+     color: #6C6C6C;
+ }
+ .watch-now-button{
+     width: 173px;
+     height: 44px;
+     background-color: #E02C6D;
+     color: white;
+     font-size: 16px;
+     font-weight: 500px;
+ }
+ /* ----group-detail---- */
+ #group-detail{
+     background-color: rgb(230, 230, 230);
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ .group-detail{
+     width: 1150px;
+     margin: 0 auto;
+     
+ }
+ .group-detail p{
+    color: #6C6C6C;
+ }
+ 
+ /* ----final match---- */
+ 
+ 
+ .final-match{
+     width: 1150px;
+     margin: 0 auto;
+ }
+ .section-img img{
+     margin-bottom: -15px;
+ }
+ .match-time{
+     text-align: center;
+ }
+ .match-time h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+ }
+ .match-time h1{
+     font-size: 70px;
+     margin-top: 10px;
+ }
+ .match-time h3{
+     color: crimson;
+     margin: 10px;
+ }
+ span{
+     color: chocolate;
+ }
+/* ----footer---- */
+.footer{
+    align-items: center;
+   
+    
+}
+.footer-width{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-logo img{
+    width: 480px;
+    
+}
+.socal-icon {
+  margin: 0 190px;
+}
+.socal-icon .icon{
+    margin: 5px;
+}
+.socal-icon .icon:hover{
+    background-color: rgb(209, 209, 209);
+}
+small{
+    margin: 150px;
+}
+/* ----footer end---- */
+/* ----Bomail Device---- */
+@media only screen and (max-width:688px){
+  
+     nav{
+        display: none;
+     } 
+     .contant{ 
+        flex-direction: column; 
+        width: 100%;      
+        
+    }
+     .head-line h2{
+        font-size: 35px;
+    } 
+    
+    .footballer img{
+        width: 354px;
+        margin-left:40px ;
+    }  
+       #contant{ 
+         width: 250px;
+        margin: 0 auto;   
+    } 
+    .player{
+        width: 250px;
+         margin-left: 20px; 
+        margin-top: 30px;
+    }
+    .players{ 
+     width: 100%;   
+     grid-template-columns: repeat(1, 1fr);
+        
+    } 
+    .player-image img{
+        width: 230px;
+        padding-left: 5px;
+      
+    }
+    .detail h3{
+        margin: 0px;
+    
+    }
+    .detail p{
+        margin: 0;
+        margin-top: 0px;
+    }
+   
+    .highlights-contant{
+        flex-direction: column;
+        /* width: 100%; */
+         padding-left: 5px; 
+    } 
+    .highlights-contant{
+        width: 280px;
+    }
+    .highlights-detail h2{
+        font-size: 25px;
+        width: 200px;
+    }
+    .highlights-detail p{
+        font-size: 14px;
+        width: 200px;
+    }
+    .messi img{
+        width: 250px;
+        padding-top: 10px;
+    }
+ 
+     
+    .group-detail{
+        flex-direction: column;
+        width: 200px;  
+    }  
+    .match-detail{
+        width: 200px;
+    }
+    .group-detail h3{
+        margin-top: 5px;
+    }
+    .group-image img{
+        width: 200px;
+    }  
+    #group-detail {
+        width: 250px;
+    } 
+    .final-match{
+        width: 100%;
+        flex-direction: column;
+    }
+    .final-match{
+        width: 250px;
+    }
+    .match-time{
+        width: 230px;
+    }
+    .match-time h1, h2, h3{
+        font-size: 30px;
+    }
+    .section-img img{
+        width: 250px;
+    }
+    .footer-logo img{
+       width: 200px;
+       margin-left: 20px;
+    }
+    .socal-icon{
+        width: 150px;
+        margin-left: 40px;
+    }
+    small{
+        margin-left: 40px;
+    }
+
+}
