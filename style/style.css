@@ -259,6 +259,9 @@ small{
     margin: 150px;
 }
 /* ----footer end---- */
+
+
+/* --------media query------ */
 /* ----Bomail Device---- */
 @media only screen and (max-width:688px){
   
@@ -280,7 +283,7 @@ small{
     }  
        #contant{ 
          width: 250px;
-        margin: 0 auto;   
+        margin: 0 23px;   
     } 
     .player{
         width: 250px;
